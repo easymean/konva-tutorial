@@ -1,14 +1,14 @@
 import { useState } from "react";
 import "./App.css";
 import Canvas from "@/pages/Canvas";
+import KonvaTutorial from "./pages/KonvaTutorial";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div className="App">
       <div className="tutorial-root">
-        <Canvas />
+        {/* <Canvas /> */}
+        <KonvaTutorial />
       </div>
     </div>
   );
